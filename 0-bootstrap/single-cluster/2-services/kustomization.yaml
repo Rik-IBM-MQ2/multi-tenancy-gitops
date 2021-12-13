@@ -34,14 +34,14 @@ resources:
 #- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-# - argocd/operators/ibm-foundations.yaml
-# - argocd/instances/ibm-foundational-services-instance.yaml
-# - argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
 ## Required by the Business Automation CloudPak only
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 
 ## IBM Catalogs
-# - argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 
 # Required for IBM MQ
