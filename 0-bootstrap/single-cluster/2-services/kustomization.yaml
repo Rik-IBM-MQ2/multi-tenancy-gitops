@@ -12,7 +12,7 @@ resources:
 #- argocd/operators/ibm-cp4i-operators.yaml
 #- argocd/operators/ibm-datapower-operator.yaml
 #- argocd/operators/ibm-eventstreams-operator.yaml
-- argocd/operators/ibm-mq-operator.yaml
+# - argocd/operators/ibm-mq-operator.yaml
 #- argocd/operators/ibm-opsdashboard-operator.yaml
 # - argocd/operators/ibm-platform-navigator.yaml
 # - argocd/instances/ibm-platform-navigator-instance.yaml
@@ -34,14 +34,14 @@ resources:
 #- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-- argocd/operators/ibm-foundations.yaml
-- argocd/instances/ibm-foundational-services-instance.yaml
-- argocd/operators/ibm-automation-foundation-core-operator.yaml
+# - argocd/operators/ibm-foundations.yaml
+# - argocd/instances/ibm-foundational-services-instance.yaml
+# - argocd/operators/ibm-automation-foundation-core-operator.yaml
 ## Required by the Business Automation CloudPak only
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 
 ## IBM Catalogs
-- argocd/operators/ibm-catalogs.yaml
+# - argocd/operators/ibm-catalogs.yaml
 
 
 # Required for IBM MQ
