@@ -47,8 +47,8 @@ resources:
 # Required for IBM MQ
 - argocd/instances/openldap.yaml
 # Required for IBM ACE, IBM MQ
-- argocd/operators/cert-manager.yaml
-- argocd/instances/cert-manager-instance.yaml
+# - argocd/operators/cert-manager.yaml
+# - argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
 - argocd/instances/sealed-secrets.yaml
@@ -91,7 +91,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/Rik-IBM-MQ/multi-tenancy-gitops-services.git
+      value: https://github.com/Rik-IBM-MQ2/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
@@ -102,7 +102,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/Rik-IBM-MQ/multi-tenancy-gitops-apps.git
+      value: https://github.com/Rik-IBM-MQ2/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: master
